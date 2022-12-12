@@ -11,7 +11,9 @@ jobs:
     #SO que vai executar o run: 
     runs-on: ubuntu-latest #constroe uma ""maq virtual pequena"" (container) e vai ter o ubntu instalado
     #definição do template do container: 
-    container: cypress/browsers:node14.17.0-chrome88-ff89
+    container:
+      image: cypress/browsers:node14.17.0-chrome88-ff89
+      options: --user 1001
     strategy:
       #IMPORTANTE!!! se fail-fast tiver como true (default), a operação para se tiver alguma coisa errado, ex: encontrar um bug. 
       #Seguir executando se encontrar algum impedimento:

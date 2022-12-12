@@ -24,7 +24,7 @@ jobs:
       #execução dos testes automatizados - nesse caso será no chrome:
       - name: 'UI Tests - Chrome'
       #plugin oficial pra testar com cypress dentro do github actions:
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v3
         with:
         #instala dependencias no projeto (dev dependecies): 
           install-command: yarn install

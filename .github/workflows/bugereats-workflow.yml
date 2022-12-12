@@ -40,7 +40,7 @@ jobs:
           #agrupar execução do teste:
           group: 'UI - Chrome'
           #onde estão as suites:
-          spec: cypress/integration/*
+          spec: cypress/e2e/*
         env:
           #variavel criada para gravar key da gravação dos testes. No: settings > secrets 
           #chave é dado pelo cypress na criação do projeto na nuvem

@@ -14,7 +14,7 @@
 
 This repository is dedicated to the material made during the 'QA Ninja' [Cypress course](https://app.qacademy.io/area/produto/item/148694). 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 -----------------------------------------------------
 ⚠️ Attention ⚠️

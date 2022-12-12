@@ -1,0 +1,49 @@
+{
+    "signup" : {
+        "name": "Ana Luiza Nascimento",
+        "cpf": "02398734400",
+        "email": "ana@qa.com",
+        "whatsapp": "83 995624020",
+        "adress": {
+          "postalcode": "58411005",
+          "street": "Rua Sandra Vasconcelos Pereira de Melo",
+          "number": "87",
+          "details": "apt 202",
+          "district": "Itararé",
+          "city_uf": "Campina Grande/PB"
+        },
+        "delivery_method": "Bike Elétrica"
+    },
+
+    "cpf_inv":{
+        "name": "Ana Luiza Nascimento",
+        "cpf": "023987344aa",
+        "email": "ana@qa.com",
+        "whatsapp": "83 995624020",
+        "adress": {
+          "postalcode": "58411005",
+          "street": "Rua Sandra Vasconcelos Pereira de Melo",
+          "number": "87",
+          "details": "apt 202",
+          "district": "Itararé",
+          "city_uf": "Campina Grande/PB"
+        },
+        "delivery_method": "Bike Elétrica"
+    },
+
+    "email_inv" : {
+        "name": "Ana Luiza Nascimento",
+        "cpf": "02398734400",
+        "email": "anaqa.com",
+        "whatsapp": "83 995624020",
+        "adress": {
+          "postalcode": "58411005",
+          "street": "Rua Sandra Vasconcelos Pereira de Melo",
+          "number": "87",
+          "details": "apt 202",
+          "district": "Itararé",
+          "city_uf": "Campina Grande/PB"
+        },
+        "delivery_method": "Bike Elétrica"
+    }
+}

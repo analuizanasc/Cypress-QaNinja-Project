@@ -1,0 +1,19 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de testes de aceitação do app BugerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Ana Luiza Nascimento",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
+  }
+}

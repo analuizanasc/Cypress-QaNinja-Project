@@ -29,7 +29,7 @@ jobs:
         uses: cypress-io/github-action@v4
         with:
         #instala dependencias no projeto (dev dependecies): 
-          install-command: yarn install
+          install-command: npm install
           #variavel (base_url) definida atravaes do settings > secrets
           #url que será testada - para ver se ta online
           wait-on: ${{ secrets.BASE_URL }}

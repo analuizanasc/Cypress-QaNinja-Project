@@ -34,7 +34,7 @@ jobs:
           #url que será testada - para ver se ta online
           wait-on: ${{ secrets.BASE_URL }}
           #aguardar timeout pra saber se URL tá online 
-          #wait-on-timeout: 120
+          wait-on-timeout: 120
           #browser que será testado
           browser: chrome
           #gravar resultado:

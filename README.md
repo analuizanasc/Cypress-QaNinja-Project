@@ -16,12 +16,6 @@ This repository is dedicated to the material made during the 'QA Ninja' [Cypress
 
 
 
------------------------------------------------------
-⚠️ Attention ⚠️
-
-The workflow from github actions is not working properly! I'll be glad if you collaborate to fix the problem.
-
------------------------------------------------------
 
 
 </div>

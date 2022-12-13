@@ -32,7 +32,7 @@ jobs:
           install-command: npm install
           #variavel (base_url) definida atravaes do settings > secrets
           #url que será testada - para ver se ta online
-          #wait-on: ${{ secrets.BASE_URL }}
+          wait-on: ${{ secrets.BASE_URL }}
           #aguardar timeout pra saber se URL tá online 
           #wait-on-timeout: 120
           #browser que será testado

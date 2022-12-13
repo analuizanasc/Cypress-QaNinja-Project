@@ -26,15 +26,15 @@ jobs:
       #execução dos testes automatizados - nesse caso será no chrome:
       - name: 'UI Tests - Chrome'
       #plugin oficial pra testar com cypress dentro do github actions:
-        uses: cypress-io/github-action@v4
+        uses: cypress-io/github-action@v5.0.0
         with:
         #instala dependencias no projeto (dev dependecies): 
           install-command: npm install
           #variavel (base_url) definida atravaes do settings > secrets
           #url que será testada - para ver se ta online
-          wait-on: ${{ secrets.BASE_URL }}
+          #wait-on: ${{ secrets.BASE_URL }}
           #aguardar timeout pra saber se URL tá online 
-          wait-on-timeout: 120
+          #wait-on-timeout: 120
           #browser que será testado
           browser: chrome
           #gravar resultado:
@@ -42,7 +42,7 @@ jobs:
           #agrupar execução do teste:
           group: 'UI - Chrome'
           #onde estão as suites:
-          spec: cypress/e2e/*
+          #spec: cypress/e2e/*
         env:
           #variavel criada para gravar key da gravação dos testes. No: settings > secrets 
           #chave é dado pelo cypress na criação do projeto na nuvem

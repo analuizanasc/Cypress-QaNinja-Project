@@ -1,20 +1,22 @@
 import signup from "../pages/SignupPage"
-import signupFactory from "../factories/SignupFactory"
-import SignupPage from "../pages/SignupPage"
+import SignupFactory from "../factories/SignupFactory"
 
 
 describe('Signup', () => {
 
-  // beforeEach( function(){
+  // opção para usar massa de dados no fixture: 
+  // beforeEach( function(){Sign
   //   cy.fixture('deliver').then((d) => {
   //     this.deliver = d
   //   })
   // })
+  // lembrar que para chamar os dados é preciso usar o this
 
 
   it('User should be deliver', function() {
 
-    var deliver = signupFactory.deliver()
+    //cria a massa de teste
+    var deliver = SignupFactory.deliver()
 
     signup.start()
     signup.fillForm(deliver)
@@ -27,7 +29,7 @@ describe('Signup', () => {
 
   it('Invalid document', function() {
   
-    var deliver = signupFactory.deliver()
+    var deliver = SignupFactory.deliver()
 
     deliver.cpf = '209487633AA'
 
@@ -39,7 +41,7 @@ describe('Signup', () => {
 
   it('Invalid email', function() {
 
-    var deliver = signupFactory.deliver()
+    var deliver = SignupFactory.deliver()
 
     deliver.email = 'anaqa.com.br'
 

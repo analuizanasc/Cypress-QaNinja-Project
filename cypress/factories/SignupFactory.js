@@ -4,10 +4,13 @@ var faker = require('faker')
 //importar biblioteca para gerar cpf instalado por: npm install gerador-validador-cpf --save-dev
 var cpf = require('gerador-validador-cpf')
 
-
+//modulo:
 export default {
+
+    //metodo:
     deliver: function() {
         
+    
         var firstName = faker.name.firstName()
         var lastName = faker.name.lastName()
 
@@ -29,6 +32,7 @@ export default {
             delivery_method: 'Bike Elétrica'
         }
 
+        //"devolver" massa completa
         return data
     }
 }

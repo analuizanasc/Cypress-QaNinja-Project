@@ -13,7 +13,6 @@ jobs:
     #definição do template do container: 
     container:
       image: cypress/browsers:node14.17.0-chrome88-ff89
-      options: --user 1001
     strategy:
       #IMPORTANTE!!! se fail-fast tiver como true (default), a operação para se tiver alguma coisa errado, ex: encontrar um bug. 
       #Seguir executando se encontrar algum impedimento:
@@ -26,10 +25,10 @@ jobs:
       #execução dos testes automatizados - nesse caso será no chrome:
       - name: 'UI Tests - Chrome'
       #plugin oficial pra testar com cypress dentro do github actions:
-        uses: cypress-io/github-action@v4
+        uses: cypress-io/github-action@v5.0.0
         with:
         #instala dependencias no projeto (dev dependecies): 
-          install-command: yarn install
+          install-command: npm install
           #variavel (base_url) definida atravaes do settings > secrets
           #url que será testada - para ver se ta online
           wait-on: ${{ secrets.BASE_URL }}

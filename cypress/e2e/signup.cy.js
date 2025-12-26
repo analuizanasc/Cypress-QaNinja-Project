@@ -5,7 +5,7 @@ import SignupFactory from "../factories/SignupFactory"
 describe('Signup', () => {
 
   // opção para usar massa de dados no fixture: 
-  // beforeEach( function(){Sign
+  // beforeEach( function(){
   //   cy.fixture('deliver').then((d) => {
   //     this.deliver = d
   //   })
